@@ -7,7 +7,7 @@ Built for Minecraft 1.21.7 and 1.21.8.
 
 To use this effect, an Elytra must have the `"starry"` tag in the `custom_data` component.
 
-This can be obtained with the command `/give <player> minecraft:elytra[minecraft:custom_data{starry:1}`
+This can be obtained with the command `/give <player> minecraft:elytra[minecraft:custom_data{starry:1}]`
 
 ## Building
 
