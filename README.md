@@ -1,7 +1,7 @@
 # Starrylytra
 A Client-Side Minecraft mod which replaces the Elytra material with the End Portal material
 
-Built for Minecraft 1.21.7 and 1.21.8.
+Built for Minecraft 1.21.7. Probably works in other versions.
 
 ## Usage
 
@@ -11,8 +11,11 @@ This can be obtained with the command `/give <player> minecraft:elytra[minecraft
 
 ## Building
 
+- Run `./gradlew build`
+- The jar will be in `/build/libs` 
+
 ### Requirements
 
-- Java 21+
-- Minecraft 1.21.7 (untested, but probably works with 1.21.5+)
-- Fabric Loader + API 0.129.0+
+- Java 21 SDK
+- Minecraft 1.21.7 (ish)
+- Fabric Loader + API

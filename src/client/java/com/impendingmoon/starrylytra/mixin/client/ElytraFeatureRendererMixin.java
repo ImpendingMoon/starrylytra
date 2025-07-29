@@ -29,7 +29,7 @@ public abstract class ElytraFeatureRendererMixin<S extends BipedEntityRenderStat
     @Shadow @Final private ElytraEntityModel babyModel;
     @Shadow @Final private EquipmentRenderer equipmentRenderer;
 
-    /// Replaces the default Elytra material with the End Gateway material when a data component is set
+    /// Replaces the default Elytra material with the End Portal material when a data component is set
     @Inject(method = "render", at = @At("HEAD"), cancellable = true)
     private void onRenderElytra(MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light,
                                 S state, float limbAngle, float limbDistance, CallbackInfo ci) {
@@ -47,7 +47,7 @@ public abstract class ElytraFeatureRendererMixin<S extends BipedEntityRenderStat
         matrices.push();
         matrices.translate(0.0F, 0.0F, 0.125F);
 
-        RenderLayer endPortalLayer = RenderLayer.getEndGateway();
+        RenderLayer endPortalLayer = RenderLayer.getEndPortal();
         VertexConsumer buffer = vertexConsumers.getBuffer(endPortalLayer);
 
         modelToUse.render(matrices, buffer, light, OverlayTexture.DEFAULT_UV);

@@ -3,20 +3,19 @@
 	"id": "starrylytra",
 	"version": "${version}",
 	"name": "Starrylytra",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Client-Side mod that replaces the material of tagged elytra with the end portal material.",
 	"authors": [
-		"Me!"
+		"ImpendingMoon"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://impendingmoon.neocities.org",
+		"sources": "https://github.com/ImpendingMoon/starrylytra"
 	},
-	"license": "CC0-1.0",
+	"license": "BSD-3-Clause",
 	"icon": "assets/starrylytra/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.impendingmoon.starrylytra.Starrylytra"
 		],
 		"client": [
 			"com.impendingmoon.starrylytra.StarrylytraClient"
