@@ -3,6 +3,7 @@
 	"package": "com.impendingmoon.starrylytra.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
+		"ElytraFeatureRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
