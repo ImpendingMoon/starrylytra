@@ -19,3 +19,11 @@ This can be obtained with the command `/give <player> minecraft:elytra[minecraft
 - Java 21 SDK
 - Minecraft 1.21.7 (ish)
 - Fabric Loader + API
+
+## Limitations
+
+- Does not work with (most) shaders.
+
+Shaders like Complementary Shaders do not use the default End Portal material, and rely on setting specific blocks to their own shader.
+
+With shaders like these, the elytra will usually be rendered entirely black.
